@@ -1,0 +1,132 @@
+{
+    "Header.Item1": "À propos de moi",
+    "Header.Item2": "Expérience",
+    "Header.Item3": "Projets",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "CV",
+    "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert.pdf",
+
+    "Banner.Pretitle": "Bonjour! Je m'appelle",
+    "Banner.Description": "J'ai <span class='underline'>2 ans d'expérience</span> dans le développement web et d'applications de bureau. Je me concentre sur l'écriture de code propre et réutilisable en beaucoups <span class='underline'>divers technologies</span> , en appliquant les bonnes pratiques et les standards de développement.",
+    "Banner.ActionBtn": "Entrer en contact",
+
+    "AboutMe.Title": "À propos de moi",
+    "AboutMe.Paragraphs": [
+        "En <span class='underline'>2 ans d'expérience</span>, j'ai occupé divers rôles : <span class='underline'>développeur web</span>, <span class='underline'>développeur d'application de bureau</span>. J'aime utiliser mes compétences pour créer des solutions innovantes qui résolvent des problèmes.",
+        "Mes compétences incluent la mise en œuvre d'améliorations dans les systèmes, l'optimisation des sites, la standardisation des modèles, et l'exécution d'idées ajoutant de la valeur au projet sur lequel je travaille.",
+        "Je programme également des projets pour mon usage personnel, par intérêt ou utilité.",
+        "Les technologies sur lesquelles j'ai travaillé incluent (mais ne se limitent pas à) : Java, Spring Boot, Angular, Laravel, NodeJS, React, Java Swing, PHP, MySQL, JavaScript."
+    ],
+
+    "Experience.Title": "Expérience",
+    "Experience.Jobs": [
+        {
+            "Tab": "OData-Mada",
+            "Title": "Stagiaire Développeur Laravel",
+            "Date": "Juin 2023 - Août 2023",
+            "Description": [
+                "Création d'une application Web pour le suivi de production des intervenants."
+            ]
+        },
+        {
+            "Tab": "DREN A.M.M",
+            "Title": "Développeur NodeJS et React",
+            "Date": "Mai 2023 - Juin 2023",
+            "Description": [
+                "Développement d'un logiciel de gestion des kits scolaires."
+            ]
+        },
+        {
+            "Tab": "DREN A.M.M",
+            "Title": "Stagiaire Développeur JAVA Swing",
+            "Date": "Juin 2022 - Juillet 2022",
+            "Description": [
+                "Création d'une application de gestion de stocks scolaires."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "Mes projets",
+    "FeatureProjects.Label": "Projet en vedette",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Projet E-commerce",
+            "Description": "Réalisation d'un projet d'E-commerce avec <span class='underline'>Spring Boot</span> et <span class='underline'>Angular</span>.",
+            "imgs": [
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+            ],
+            "Technologies": ["Spring Boot", "Angular", "MySQL"]
+        },
+        {
+            "Title": "Gestion de clients pour une banque",
+            "Description": "Conception et réalisation d'un projet de gestion de clients pour une banque avec <span class='underline'>Java Web</span> et <span class='underline'>Servlet</span>. Ce logiciel inclut des fonctionnalités de création de compte, retrait, dépôt et transfert d'argent.",
+            "imgs": [
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
+                "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+            ],
+            "Technologies": ["Java", "Servlet", "MySQL"]
+        }
+    ],
+
+    "OtherProjects.Title": "Autres projets",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Gestion de vente pour un grossiste",
+            "Description": "Création de projets de gestion de vente pour un grossiste avec 2 autre interface. Ces applications gèrent la facturation et les statistiques de vente.",
+            "ghLink": "https://github.com/nirinaalbert29",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Java Swing", "JavaScript","MySQL"]
+        },
+        {
+            "Title": "Gestion des étudiants",
+            "Description": "Réalisation d'un projet de gestion des étudiants . Cette application gère les notes des étudiants.",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["PHP", "MySQL"]
+        },
+        {
+            "Title": "Gestion des matériels de formation",
+            "Description": "Développement d'une application pour la gestion des matériels de formation ",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Java", "Spring Boot", "MySQL"]
+        },
+        {
+            "Title": "Gestion de recrutement",
+            "Description": "Création d'une application de gestion de recrutement .",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Laravel", "MySQL"]
+        },
+        {
+            "Title": "Suivi des interventions",
+            "Description": "Développement d'une application de suivi des interventions .",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["NodeJS", "React", "MySQL"]
+        }
+    ],
+
+    "Contact.Pretitle": "Et ensuite",
+    "Contact.Title": "Entrez en contact!",
+    "Contact.Content": "Je serais ravi de discuter de nouvelles opportunités avec vous. Écrivez-moi, et je répondrai dès que possible.",
+    "Contact.Btn": "Dire Bonjour"
+}
