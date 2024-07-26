@@ -1,0 +1,126 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "CV",
+  "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I have <span class='underline'>2 years of experience</span> in web and desktop application development. I focus on writing clean and reusable code in various <span class='underline'>technologies</span>, applying best practices and development standards.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+      "In <span class='underline'>2 years of experience</span>, I have held various roles: <span class='underline'>web developer</span>, <span class='underline'>desktop application developer</span>. I enjoy using my skills to create innovative solutions that solve problems.",
+      "My skills include implementing system improvements, optimizing sites, standardizing models, and executing ideas that add value to the project I'm working on.",
+      "I also program projects for personal use, out of interest or necessity.",
+      "The technologies I have worked with include (but are not limited to): Java, Spring Boot, Angular, Laravel, NodeJS, React, Java Swing, PHP, MySQL, JavaScript."
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+      {
+          "Tab": "OData-Mada",
+          "Title": "Laravel Developer Intern",
+          "Date": "June 2023 - August 2023",
+          "Description": [
+              "Created a Web application for tracking production of field workers."
+          ]
+      },
+      {
+          "Tab": "DREN A.M.M",
+          "Title": "NodeJS and React Developer",
+          "Date": "May 2023 - June 2023",
+          "Description": [
+              "Developed a software for managing school kits."
+          ]
+      },
+      {
+          "Tab": "DREN A.M.M",
+          "Title": "JAVA Swing Developer Intern",
+          "Date": "June 2022 - July 2022",
+          "Description": [
+              "Created a school stock management application."
+          ]
+      }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+      {
+          "Title": "E-commerce Project",
+          "Description": "Developed an E-commerce project using <span class='underline'>Spring Boot</span> and <span class='underline'>Angular</span>.",
+          "imgs": [
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg"
+          ],
+          "Technologies": ["Spring Boot", "Angular", "MySQL"]
+      },
+      {
+          "Title": "Client Management for a Bank",
+          "Description": "Designed and developed a client management project for a bank using <span class='underline'>Java Web</span> and <span class='underline'>Servlet</span>. This software includes features for account creation, withdrawal, deposit, and money transfer.",
+          "imgs": [
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg"
+          ],
+          "Technologies": ["Java", "Servlet", "MySQL"]
+      }
+  ],
+
+  "OtherProjects.Title": "Other Projects",
+  "OtherProjects.Projects": [
+      {
+          "Title": "Sales Management for a Wholesaler",
+          "Description": "Created sales management projects for a wholesaler with 2 other interfaces. These applications handle billing and sales statistics.",
+          "imgs": [
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg"
+          ],
+          "Technologies": ["Java Swing", "JavaScript", "MySQL"]
+      },
+      {
+          "Title": "Student Management",
+          "Description": "Developed a student management project. This application handles student grades.",
+          "imgs": [
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg"
+          ],
+          "Technologies": ["PHP", "MySQL"]
+      },
+      {
+          "Title": "Training Equipment Management",
+          "Description": "Developed an application for managing training equipment.",
+          "imgs": [
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg"
+          ],
+          "Technologies": ["Java", "Spring Boot", "MySQL"]
+      },
+      {
+          "Title": "Recruitment Management",
+          "Description": "Created a recruitment management application.",
+          "imgs": [
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg"
+          ],
+          "Technologies": ["Laravel", "MySQL"]
+      },
+      {
+          "Title": "Intervention Tracking",
+          "Description": "Developed an intervention tracking application.",
+          "imgs": [
+              "assets/images/figma-design.jpg",
+              "assets/images/figma-design.jpg"
+          ],
+          "Technologies": ["NodeJS", "React", "MySQL"]
+      }
+  ],
+
+  "Contact.Pretitle": "What's next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I would be happy to discuss new opportunities with you. Write to me, and I will respond as soon as possible.",
+  "Contact.Btn": "Say Hello"
+}
