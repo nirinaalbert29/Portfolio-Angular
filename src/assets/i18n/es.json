@@ -7,6 +7,7 @@
   "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
+  "Banner.title": "Informatique Developer",
   "Banner.Description": "I have <span class='underline'>2 years of experience</span> in web and desktop application development. I focus on writing clean and reusable code in various <span class='underline'>technologies</span>, applying best practices and development standards.",
   "Banner.ActionBtn": "Get in touch",
 
@@ -106,16 +107,7 @@
               "assets/images/figma-design.jpg",
               "assets/images/figma-design.jpg"
           ],
-          "Technologies": ["Laravel", "MySQL"]
-      },
-      {
-          "Title": "Intervention Tracking",
-          "Description": "Developed an intervention tracking application.",
-          "imgs": [
-              "assets/images/figma-design.jpg",
-              "assets/images/figma-design.jpg"
-          ],
-          "Technologies": ["NodeJS", "React", "MySQL"]
+          "Technologies": ["Flutter", "Sqlite"]
       }
   ],
 
