@@ -4,9 +4,10 @@
     "Header.Item3": "Projets",
     "Header.Item4": "Contact",
     "Header.cvBtn": "CV",
-    "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert.pdf",
+    "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert_fr.pdf",
 
     "Banner.Pretitle": "Bonjour! Je m'appelle",
+    "Banner.title": "Dévéloppeur Informatique",
     "Banner.Description": "J'ai <span class='underline'>2 ans d'expérience</span> dans le développement web et d'applications de bureau. Je me concentre sur l'écriture de code propre et réutilisable en beaucoups <span class='underline'>divers technologies</span> , en appliquant les bonnes pratiques et les standards de développement.",
     "Banner.ActionBtn": "Entrer en contact",
 
@@ -79,13 +80,13 @@
     "OtherProjects.Projects": [
         {
             "Title": "Gestion de vente pour un grossiste",
-            "Description": "Création de projets de gestion de vente pour un grossiste avec 2 autre interface. Ces applications gèrent la facturation et les statistiques de vente.",
+            "Description": "Création des appllications de gestion de vente pour un grossiste avec 2 différents interfaces (Desktop,Web). Ces applications gèrent la facturation et les statistiques de vente.",
             "ghLink": "https://github.com/nirinaalbert29",
             "imgs": [
                 "assets/images/figma-design.jpg",
                 "assets/images/figma-design.jpg"
             ],
-            "Technologies": ["Java Swing", "JavaScript","MySQL"]
+            "Technologies": ["Java-Swing", "JavaScript","MySQL"]
         },
         {
             "Title": "Gestion des étudiants",
@@ -97,17 +98,8 @@
             "Technologies": ["PHP", "MySQL"]
         },
         {
-            "Title": "Gestion des matériels de formation",
-            "Description": "Développement d'une application pour la gestion des matériels de formation ",
-            "imgs": [
-                "assets/images/figma-design.jpg",
-                "assets/images/figma-design.jpg"
-            ],
-            "Technologies": ["Java", "Spring Boot", "MySQL"]
-        },
-        {
-            "Title": "Gestion de recrutement",
-            "Description": "Création d'une application de gestion de recrutement .",
+            "Title": "Gestion de vente de Logement",
+            "Description": "Développement d'une application web pour la gestion de vente de Logement,en acceptant le payement en deux tranches ",
             "imgs": [
                 "assets/images/figma-design.jpg",
                 "assets/images/figma-design.jpg"
@@ -115,13 +107,13 @@
             "Technologies": ["Laravel", "MySQL"]
         },
         {
-            "Title": "Suivi des interventions",
-            "Description": "Développement d'une application de suivi des interventions .",
+            "Title": "Application mobile pour la bourse de mérite des étudiants",
+            "Description": "Création d'une application mobile de gestion des étudiants mérité d'obtenir une bourse de mérite .",
             "imgs": [
                 "assets/images/figma-design.jpg",
                 "assets/images/figma-design.jpg"
             ],
-            "Technologies": ["NodeJS", "React", "MySQL"]
+            "Technologies": ["Flutter", "Sqlite"]
         }
     ],
 
