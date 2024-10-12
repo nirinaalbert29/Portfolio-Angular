@@ -11,6 +11,7 @@ export class ContactComponent implements OnInit {
   name: string = '';
   email: string = '';
   message: string = '';
+  emailError: string = '';
 
   constructor(
     public analyticsService: AnalyticsService
@@ -21,8 +22,18 @@ export class ContactComponent implements OnInit {
   }
 
   onSubmit() {
-    this.sendMessageToOwner();
-    this.sendConfirmationToSender();
+    if (this.validateEmail(this.email)) {
+      this.sendMessageToOwner();
+      this.sendConfirmationToSender();
+    } else {
+      this.emailError = "L'adresse email saisie est incorrecte. Veuillez vérifier et réessayer.";
+      this.analyticsService.logEvent('email_validation_error', { email: this.email });
+    }
+  }
+
+  validateEmail(email: string): boolean {
+    const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    return re.test(email);
   }
 
   sendMessageToOwner() {
@@ -41,13 +52,14 @@ export class ContactComponent implements OnInit {
       }, (error) => {
         console.error('Erreur lors de l\'envoi de l\'email au propriétaire', error);
         this.analyticsService.logEvent('email_error_to_owner', { error: error.message });
+        alert('Une erreur s\'est produite lors de l\'envoi de votre message. Veuillez réessayer plus tard.');
       });
   }
 
   sendConfirmationToSender() {
     const templateParams = {
       to_name: this.name,
-      to_email: this.email, // Utilisez l'email de l'utilisateur ici
+      to_email: this.email,
       message: `Merci d'avoir visité mon portfolio. Je vous souhaite beaucoup de succès dans vos projets. J'ai bien reçu votre message et je m'engage à y répondre dans les plus brefs délais. N'hésitez pas à me contacter pour toute information supplémentaire. Cordialement, JEAN alexis Nirina albert`
     };
 
@@ -68,5 +80,6 @@ export class ContactComponent implements OnInit {
     this.name = '';
     this.email = '';
     this.message = '';
+    this.emailError = '';
   }
 }

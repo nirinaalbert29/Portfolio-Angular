@@ -20,6 +20,7 @@
         <div class="mb-3">
           <input type="email" class="contact-input main-btn" id="email" name="email"
                  [(ngModel)]="email" placeholder='{{ "input.email" | translate }}' required>
+          <div *ngIf="emailError" class="error-message">{{ emailError }}</div>
         </div>
         <div class="mb-3">
           <textarea class="contact-input main-btn" id="message" name="message" rows="4"
