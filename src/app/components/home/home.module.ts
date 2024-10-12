@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';  // Ajout de FormsModule
 import { HomeComponent } from './home.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
@@ -9,15 +10,13 @@ import { ContactComponent } from './contact/contact.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { MoreProyectsComponent } from './more-proyects/more-proyects.component';
 import { ProyectsComponent } from './proyects/proyects.component';
-import { NgbModule, NgbNav, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 export function HttpLoaderFactory(http: HttpClient){
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
-
-
 
 @NgModule({
   declarations: [
@@ -31,6 +30,7 @@ export function HttpLoaderFactory(http: HttpClient){
   ],
   imports: [
     CommonModule,
+    FormsModule,  // Ajout de FormsModule
     NgbNavModule,
     CarouselModule,
     TranslateModule.forChild({
@@ -40,6 +40,10 @@ export function HttpLoaderFactory(http: HttpClient){
           deps: [HttpClient]
       }
     })
+  ],
+  exports: [
+    HomeComponent,
+    ContactComponent  // Export de ContactComponent
   ]
 })
 export class HomeModule { }

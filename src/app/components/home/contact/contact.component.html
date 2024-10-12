@@ -12,65 +12,41 @@
       <p data-aos="fade-up" data-aos-duration="1000">
         {{ "Contact.Content" | translate }}
       </p>
-      <form class="mt-5" data-aos="fade-up" data-aos-duration="1000">
+      <form class="mt-5" (ngSubmit)="onSubmit()" data-aos="fade-up" data-aos-duration="1000">
         <div class="mb-3">
-          <input type="email" class="form-control" id="email" name="email"  placeholder="Votre email" required>
+          <input type="text" class="contact-input main-btn" id="name" name="name"
+                 [(ngModel)]="name" placeholder='{{ "input.name" | translate }}' required>
         </div>
         <div class="mb-3">
-          <textarea class="form-control" id="message" name="message"  rows="4" placeholder="Votre message" required></textarea>
+          <input type="email" class="contact-input main-btn" id="email" name="email"
+                 [(ngModel)]="email" placeholder='{{ "input.email" | translate }}' required>
+        </div>
+        <div class="mb-3">
+          <textarea class="contact-input main-btn" id="message" name="message" rows="4"
+                    [(ngModel)]="message" placeholder='{{ "input.mes" | translate }}' required></textarea>
         </div>
         <button type="submit" class="main-btn">
           {{ "Contact.Btn" | translate }}
         </button>
       </form>
-      <div class="mt-3">
-        <a
-          (click)="
-            analyticsService.sendAnalyticEvent(
-              'click_send_mail',
-              'contact',
-              'email'
-            )
-          "
-          href="mailto:nirinaalexalbert29@gmail.com"
-          target="_blank"
-          class="main-btn"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          {{ "Contact.Btn" | translate }}
-        </a>
-      </div>
     </div>
   </div>
 </section>
 
 <style>
-  .form-control {
+  .contact-input {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 2px solid #007bff; /* Couleur de bordure similaire au bouton, à ajuster selon votre design */
-    border-radius: 5px;
-    font-size: 16px;
+    text-align: left;
+    cursor: text;
   }
 
-  textarea.form-control {
+  .contact-input::placeholder {
+    color: inherit;
+    opacity: 0.7;
+  }
+
+  textarea.contact-input {
     resize: vertical;
-  }
-
-  .main-btn {
-    /* Vos styles existants pour le bouton */
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-
-  .main-btn:hover {
-    background-color: #0056b3;
+    min-height: 100px;
   }
 </style>

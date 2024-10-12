@@ -10,6 +10,11 @@ export class AnalyticsService {
     private $gaService: GoogleAnalyticsService
   ) { }
 
+  logEvent(eventName: string, eventData: any) {
+    // Implémentez ici votre logique d'analytique
+    console.log(`Event logged: ${eventName}`, eventData);
+  }
+
   sendAnalyticEvent(action: string, category: string, label){
     this.$gaService.event(action, category, label)
   }

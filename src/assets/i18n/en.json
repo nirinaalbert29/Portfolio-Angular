@@ -120,5 +120,7 @@
     "Contact.Pretitle": "Et ensuite",
     "Contact.Title": "Entrez en contact!",
     "Contact.Content": "Je serais ravi de discuter de nouvelles opportunités avec vous. Écrivez-moi, et je répondrai dès que possible.",
-    "Contact.Btn": "Dire Bonjour"
+    "Contact.Btn": "Envoyez Message",
+    "input.email": "Saisir votre email",
+    "input.mes":"saisir le message à envoyer vers nirinaalexalbert29@gmail.com"
 }
