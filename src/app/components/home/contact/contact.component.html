@@ -25,8 +25,12 @@
           <textarea class="contact-input main-btn" id="message" name="message" rows="4"
                     [(ngModel)]="message" placeholder='{{ "input.mes" | translate }}' required></textarea>
         </div>
-        <button type="submit" class="main-btn">
-          {{ "Contact.Btn" | translate }}
+        <button type="submit" class="main-btn" [disabled]="isLoading">
+          <span *ngIf="!isLoading">{{ "Contact.Btn" | translate }}</span>
+          <span *ngIf="isLoading">
+            {{ "Contact.BtnLoading" | translate }}
+            <i class="fas fa-spinner fa-spin ml-2"></i>
+          </span>
         </button>
       </form>
     </div>
@@ -48,5 +52,14 @@
   textarea.contact-input {
     resize: vertical;
     min-height: 100px;
+  }
+
+  .main-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+
+  .ml-2 {
+    margin-left: 0.5rem;
   }
 </style>

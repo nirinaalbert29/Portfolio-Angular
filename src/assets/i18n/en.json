@@ -121,6 +121,8 @@
     "Contact.Title": "Entrez en contact!",
     "Contact.Content": "Je serais ravi de discuter de nouvelles opportunités avec vous. Écrivez-moi, et je répondrai dès que possible.",
     "Contact.Btn": "Envoyez Message",
+    "input.name": "Saisir votre nom",
     "input.email": "Saisir votre email",
-    "input.mes":"saisir le message à envoyer vers nirinaalexalbert29@gmail.com"
+    "input.mes":"saisir le message à envoyer vers nirinaalexalbert29@gmail.com",
+    "Contact.BtnLoading":"Evoie en cours ..."
 }

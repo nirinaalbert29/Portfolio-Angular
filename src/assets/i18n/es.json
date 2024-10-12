@@ -121,7 +121,9 @@
     "Contact.Title": "Get in Touch!",
     "Contact.Content": "I'd love to discuss new opportunities with you. Write to me, and I'll get back to you as soon as possible.",
     "Contact.Btn": "Send Message",
+    "input.name": "Enter your name",
     "input.email": "Enter your email",
-    "input.mes": "Enter the message to send to nirinaalexalbert29@gmail.com"
+    "input.mes": "Enter the message to send to nirinaalexalbert29@gmail.com",
+    "Contact.BtnLoading":"Sending ..."
 
 }
