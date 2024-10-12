@@ -25,14 +25,10 @@
           <textarea class="contact-input main-btn" id="message" name="message" rows="4"
                     [(ngModel)]="message" placeholder='{{ "input.mes" | translate }}' required></textarea>
         </div>
-        <div *ngIf="formError" class="error-message mb-3">{{ formError }}</div>
-        <button type="submit" class="main-btn" [disabled]="formStatus === 'sending'">
-          {{ formStatus === 'sending' ? ("Contact.SendingBtn" | translate) : ("Contact.Btn" | translate) }}
+        <button type="submit" class="main-btn">
+          {{ "Contact.Btn" | translate }}
         </button>
       </form>
-      <div *ngIf="formStatus === 'success'" class="success-message mt-3">
-        {{ "Contact.SuccessMessage" | translate }}
-      </div>
     </div>
   </div>
 </section>
@@ -52,15 +48,5 @@
   textarea.contact-input {
     resize: vertical;
     min-height: 100px;
-  }
-
-  .error-message {
-    color: #ff0000;
-    font-size: 0.9em;
-  }
-
-  .success-message {
-    color: #00ff00;
-    font-size: 0.9em;
   }
 </style>
