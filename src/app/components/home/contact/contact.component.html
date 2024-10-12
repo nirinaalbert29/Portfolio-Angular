@@ -12,7 +12,18 @@
       <p data-aos="fade-up" data-aos-duration="1000">
         {{ "Contact.Content" | translate }}
       </p>
-      <div class="mt-5">
+      <form class="mt-5" data-aos="fade-up" data-aos-duration="1000">
+        <div class="mb-3">
+          <input type="email" class="form-control" id="email" name="email"  placeholder="Votre email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="message" name="message"  rows="4" placeholder="Votre message" required></textarea>
+        </div>
+        <button type="submit" class="main-btn">
+          {{ "Contact.Btn" | translate }}
+        </button>
+      </form>
+      <div class="mt-3">
         <a
           (click)="
             analyticsService.sendAnalyticEvent(
@@ -21,7 +32,7 @@
               'email'
             )
           "
-          href="mailto:andresjosehr@gmail.com"
+          href="mailto:nirinaalexalbert29@gmail.com"
           target="_blank"
           class="main-btn"
           data-aos="fade-up"
@@ -33,3 +44,33 @@
     </div>
   </div>
 </section>
+
+<style>
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #007bff; /* Couleur de bordure similaire au bouton, à ajuster selon votre design */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  textarea.form-control {
+    resize: vertical;
+  }
+
+  .main-btn {
+    /* Vos styles existants pour le bouton */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .main-btn:hover {
+    background-color: #0056b3;
+  }
+</style>
