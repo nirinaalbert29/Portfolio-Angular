@@ -16,13 +16,21 @@
         "En <span class='underline'>2 ans d'expérience</span>, j'ai occupé divers rôles : <span class='underline'>développeur web</span>, <span class='underline'>développeur d'application de bureau</span>. J'aime utiliser mes compétences pour créer des solutions innovantes qui résolvent des problèmes.",
         "Mes compétences incluent la mise en œuvre d'améliorations dans les systèmes, l'optimisation des sites, la standardisation des modèles, et l'exécution d'idées ajoutant de la valeur au projet sur lequel je travaille.",
         "Je programme également des projets pour mon usage personnel, par intérêt ou utilité.",
-        "Les technologies sur lesquelles j'ai travaillé incluent (mais ne se limitent pas à) : Java, Spring Boot, Angular, Laravel, NodeJS, React, Java Swing, PHP, MySQL, JavaScript."
+        "Les technologies sur lesquelles j'ai travaillé incluent (mais ne se limitent pas à) : "
     ],
 
     "Experience.Title": "Expérience",
     "Experience.Jobs": [
         {
-            "Tab": "OData-Mada",
+            "Tab": "Connect Talent",
+            "Title": "freelancer Développeur Laravel & REACT",
+            "Date": "Septembre 2024 - Decembre 2024",
+            "Description": [
+                "Création d'une plateforme Connect-Talent qui aide les étudiants à trouvez des opportunité ."
+            ]
+        },
+        {
+            "Tab": "OpenData-Mada",
             "Title": "Stagiaire Développeur Laravel",
             "Date": "Juin 2023 - Août 2023",
             "Description": [

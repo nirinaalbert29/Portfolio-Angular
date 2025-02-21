@@ -16,13 +16,21 @@
         "In <span class='underline'>2 years of experience</span>, I've taken on various roles: <span class='underline'>web developer</span>, <span class='underline'>desktop application developer</span>. I enjoy using my skills to create innovative solutions that solve problems.",
         "My skills include implementing system improvements, optimizing websites, standardizing templates, and executing ideas that add value to the projects I work on.",
         "I also program projects for personal use, out of interest or necessity.",
-        "The technologies I've worked with include (but are not limited to): Java, Spring Boot, Angular, Laravel, NodeJS, React, Java Swing, PHP, MySQL, JavaScript."
+        "The technologies I've worked with include (but are not limited to): "
     ],
 
     "Experience.Title": "Experience",
     "Experience.Jobs": [
         {
-            "Tab": "OData-Mada",
+            "Tab": "Connect Talent",
+            "Title": "Freelance Laravel & REACT Developer",
+            "Date": "September 2024 - December 2024", 
+            "Description": [
+                "Creation of Connect-Talent platform that helps students find opportunities."
+            ]
+        },        
+        {
+            "Tab": "OpenData-Mada",
             "Title": "Laravel Developer Intern",
             "Date": "June 2023 - August 2023",
             "Description": [

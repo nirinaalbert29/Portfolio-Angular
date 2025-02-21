@@ -34,7 +34,6 @@ export class AppComponent implements OnInit{
       {name: 'description', content: 'With 2 years of experience developing systems, interfaces, and technological solutions to make the web a better place. In my work, I like to lead, propose, and execute ideas, write and refactor clean, reusable, and scalable code.'}
     ]);
 
-
     AOS.init();
 
   }
