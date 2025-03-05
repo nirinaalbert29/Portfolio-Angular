@@ -1,6 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-proyects',
@@ -22,24 +23,28 @@ export class ProyectsComponent implements OnInit {
 
   @ViewChild('imgContainer') imgContainer: ElementRef;
 
-
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    private sanitizer: DomSanitizer
   ) { }
 
   ngOnInit(): void {
-
-
-
   }
 
-debug(){
+  debug(){
+    this.imgContainer.nativeElement.scroll({
+      top: this.imgContainer.nativeElement.scrollHeight,
+      left: 0,
+      behavior: 'smooth',    
+    });
+  }
 
-  this.imgContainer.nativeElement.scroll({
-    top: this.imgContainer.nativeElement.scrollHeight,
-    left: 0,
-    behavior: 'smooth',    
-  });
-}
-
+  sanitizeUrl(url: string): SafeUrl {
+    // Ajoute le protocole si manquant
+    const formattedUrl = url.startsWith('http://') || url.startsWith('https://') 
+      ? url 
+      : `https://${url}`;
+    
+    return this.sanitizer.bypassSecurityTrustUrl(formattedUrl);
+  }
 }
