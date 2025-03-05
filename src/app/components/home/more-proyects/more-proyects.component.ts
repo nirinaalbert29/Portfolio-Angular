@@ -22,12 +22,14 @@ export class MoreProyectsComponent implements OnInit {
             window.scrollTo(0, 0)
         });
     }
-    redirect(route: string, event) {
-      const id = event.target.id;
-      if(id=='demoLink' || id=='ghLink'){
-        return
+    redirect(url: string, event: MouseEvent) {
+      event.preventDefault(); // Empêche le comportement par défaut du clic
+      if (url) {
+          window.open(url, '_blank'); // Ouvre l'URL dans un nouvel onglet
       }
-      window.open(route, '_blank');
+    }
+    openGitHubLink(link: string) {
+      window.open(link, '_blank');
     }
 
 }

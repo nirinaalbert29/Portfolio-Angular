@@ -1,0 +1,181 @@
+{
+    "Header.Item1": "À propos de moi",
+    "Header.Item2": "Expériences",
+    "Header.Item3": "Projets",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "CV",
+    "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert_fr.pdf",
+
+    "Banner.Pretitle": "Bonjour! Je m'appelle",
+    "Banner.title": "Développeur Informatique",
+    "Banner.Description": "J'ai <span class='underline'>2 ans d'expérience</span> dans le développement web et d'applications de bureau. Je me concentre sur l'écriture de code propre et réutilisable en beaucoup <span class='underline'>de technologies diverses</span>, en appliquant les bonnes pratiques et les standards de développement.",
+    "Banner.ActionBtn": "Entrer en contact",
+
+    "AboutMe.Title": "À propos de moi",
+    "AboutMe.Paragraphs": [
+        "En <span class='underline'>2 ans d'expérience</span>, j'ai occupé divers rôles : <span class='underline'>développeur web</span>, <span class='underline'>développeur d'application de bureau</span>. J'aime utiliser mes compétences pour créer des solutions innovantes qui résolvent des problèmes.",
+        "Mes compétences incluent la mise en œuvre d'améliorations dans les systèmes, l'optimisation des sites, la standardisation des modèles, et l'exécution d'idées ajoutant de la valeur au projet sur lequel je travaille.",
+        "Je programme également des projets pour mon usage personnel, par intérêt ou utilité.",
+        "Les technologies sur lesquelles j'ai travaillé incluent (mais ne se limitent pas à) : "
+    ],
+
+    "Experience.Title": "Expérience",
+    "Experience.Jobs": [
+        {
+            "Tab": "Connect Talent",
+            "Title": "Freelancer Développeur Laravel & REACT",
+            "Date": "Septembre 2024 - Février 2025",
+            "Description": [
+                "Création d'une plateforme Connect-Talent qui aide les étudiants à trouver des opportunités.",
+                "Création d'un site vitrine Securitec Surveillance."
+            ]
+        },
+        {
+            "Tab": "OpenData-Mada",
+            "Title": "Stagiaire Développeur Laravel",
+            "Date": "Juin 2023 - Août 2023",
+            "Description": [
+                "Création d'une application Web pour le suivi de production des intervenants."
+            ]
+        },
+        {
+            "Tab": "DREN A.M.M",
+            "Title": "Développeur NodeJS et React",
+            "Date": "Mai 2023 - Juin 2023",
+            "Description": [
+                "Développement d'un logiciel de gestion des kits scolaires."
+            ]
+        },
+        {
+            "Tab": "DREN A.M.M",
+            "Title": "Stagiaire Développeur JAVA Swing",
+            "Date": "Juin 2022 - Juillet 2022",
+            "Description": [
+                "Création d'une application de gestion de stocks scolaires."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "Mes projets",
+    "FeatureProjects.Label": "Projet en vedette",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "Plateforme Connect Talent",
+            "Description": "Participation au développement d'une plateforme web innovante facilitant la connexion entre étudiants et opportunités professionnelles, offrant une expérience utilisateur fluide et performante, construite avec les technologies modernes <span class='underline'>Laravel</span>, <span class='underline'>React</span> et <span class='underline'>MySql</span>. ",
+            "imgs": [
+                "assets/images/ctalent_images/1.JPG",
+                "assets/images/ctalent_images/2.JPG",
+                "assets/images/ctalent_images/3.JPG",
+                "assets/images/ctalent_images/4.JPG",
+                "assets/images/ctalent_images/5.JPG",
+                "assets/images/ctalent_images/6.JPG",
+                "assets/images/ctalent_images/7.JPG",
+                "assets/images/ctalent_images/8.JPG",
+                "assets/images/ctalent_images/9.JPG", 
+                "assets/images/ctalent_images/10.JPG",
+                "assets/images/ctalent_images/11.JPG",
+                "assets/images/ctalent_images/12.JPG"
+            ],
+            "link": ["https://connecttalent.cc/"]
+        },
+        {
+            "Title": "Site web Securitec Surveillance",
+            "Description": "Développement d'un site web vitrine pour Securitec Surveillance, présentant des solutions de sécurité professionnelle, réalisé avec <span class='underline'>REACT Js</span> et <span class='underline'>Tailwind Css</span>",
+            "imgs": [
+                "assets/images/securitec_images/1.JPG",
+                "assets/images/securitec_images/2.JPG",
+                "assets/images/securitec_images/3.JPG",
+                "assets/images/securitec_images/4.JPG",
+                "assets/images/securitec_images/5.JPG",
+                "assets/images/securitec_images/6.JPG",
+                "assets/images/securitec_images/7.JPG",
+                "assets/images/securitec_images/8.JPG",
+                "assets/images/securitec_images/9.JPG",
+                "assets/images/securitec_images/10.JPG"
+            ],
+            "link": ["https://securitec-surveillance.vercel.app/"]
+        }
+    ],
+
+    "OtherProjects.Title": "Autres projets",
+    "OtherProjects.Projects": [
+        {
+            "Title": "Gestion de vente de Logement",
+            "Description": "Développement d'une application web pour la gestion de vente de Logement, en acceptant le paiement en deux tranches.",
+            "ghLink": "https://github.com/nirinaalbert29/laravel-projet-vente-logement2",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Laravel", "MySQL","Bootstrap"]
+        },
+        {
+            "Title": "Application web E-commerce",
+            "Description": "Création d'une application web pour gérer l'achat de clients en ligne qui contient le côté client et Administrateur/Vendeur.",
+            "ghLink": "https://github.com/nirinaalbert29/angular-springboot-commerce-projet/tree/master",
+            "imgs": [
+                "assets/images/imagesEcom/1.PNG"
+            ],
+            "Technologies": ["Spring Boot", "Angular", "MySQL"]
+        },
+        {
+            "Title": "Application web pour gérer le compte de client dans une banque",
+            "Description": "Conception et réalisation d'une application web pour gérer la création de compte et les transactions des clients dans une banque.",
+            "ghLink": "https://github.com/nirinaalbert29/gestion_banque_jsp",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Java EE", "Servlet", "MySQL"]
+        },
+        {
+            "Title": "Gestion de vente pour un grossiste",
+            "Description": "Création d'applications de gestion de vente pour un grossiste avec 2 interfaces différentes (Desktop, Web). Ces applications gèrent la facturation et les statistiques de vente.",
+            "ghLink": "https://github.com/nirinaalbert29/gestion_vente_js_php",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Java Swing", "Javascript","PHP", "MySQL"]
+        },
+        {
+            "Title": "Gestion des étudiants",
+            "Description": "Réalisation d'un projet de gestion des étudiants. Cette application gère les notes des étudiants.",
+            "ghLink": "https://github.com/nirinaalbert29/GESTION_ETUDIANT_PHP_L2",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["PHP", "Javascript", "MySQL"]
+        },
+        {
+            "Title": "Application mobile pour la bourse de mérite des étudiants",
+            "Description": "Création d'une application mobile de gestion des étudiants méritant d'obtenir une bourse de mérite.",
+            "ghLink": "https://github.com/nirinaalbert29/gestion_etudiant_boursier_apk",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Flutter", "Sqlite"]
+        },
+        {
+            "Title": "Application mobile pour gérer la présence des employés",
+            "Description": "Création d'une application mobile pour valider la présence des employés via scan de QR-CODE.",
+            "ghLink": "https://github.com/nirinaalbert29/apk-flutter/tree/develop",
+            "imgs": [
+                "assets/images/figma-design.jpg",
+                "assets/images/figma-design.jpg"
+            ],
+            "Technologies": ["Flutter", "Sqlite"]
+        }
+    ],
+
+    "Contact.Pretitle": "Et ensuite",
+    "Contact.Title": "Entrez en contact!",
+    "Contact.Content": "Je serais ravi de discuter de nouvelles opportunités avec vous. Écrivez-moi, et je répondrai dès que possible.",
+    "Contact.Btn": "Envoyez Message",
+    "input.name": "Saisir votre nom",
+    "input.email": "Saisir votre email",
+    "input.mes": "Saisir le message à envoyer vers nirinaalexalbert29@gmail.com",
+    "Contact.BtnLoading": "Envoi en cours..."
+}

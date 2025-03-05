@@ -34,8 +34,8 @@
                             </p>
                         </div>
                         <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i%2!=0' class="proyect-skills">
-                            <li *ngFor='let technology of project.Technologies' class="ml-3">
-                              <span class="underline technology">{{technology}}</span>
+                            <li *ngFor='let link of project.link' class="ml-3">
+                              <span class="underline technology"> <a style='color: inherit' href=`{{link}}` target="_blank">{{link}}</a> </span>
                             </li>
                         </ul>
                         <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-links">
