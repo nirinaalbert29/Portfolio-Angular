@@ -1,78 +1,130 @@
 @import "./../../../../variables.scss";
 
-.contact{
+.contact {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow-x: hidden;
 
-    margin: 0 auto;
-    max-width: 1000px;
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: $LightestSlate;
+    margin: 0 auto 20px;
+    width: 100%;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .contact-pre-title {
+    position: relative;
+    display: block;
+    color: $Green;
+    font-size: 16px;
+    font-family: $CodeFont;
+    font-weight: normal;
+    margin-bottom: 20px;
     text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    height: 100vh;
-    display: table;
-
-    .container{
-        display: table-cell;
-        vertical-align: middle;
-    }
-
-    .contact-title{
-
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        white-space: nowrap;
-        font-size: 60px;
-        font-weight: 600;
-        color: $LightestSlate;
-        margin: auto;
-        width: fit-content;
-    }
-    .contact-pre-title{
-        position: relative;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin: 10px 0 40px;
-        width: 100%;
-        white-space: nowrap;
-        font-size: 32px;
-        display: block;
-        color: $Green;
-        font-size: 16px;
-        font-family: $CodeFont;
-        font-weight: normal;
-        margin-bottom: 20px;
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
-    }
-
+    width: 100%;
+  }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  .contact {
+    min-height: auto;
+    padding: 20px 15px;
+    margin: 0 auto;
+    overflow-x: hidden;
 
-    .contact{
-        height: 100vh;
-        padding: 0 !important;
-        margin: 0 auto !important;
-        display: table;
-
-        .container{
-            display: table-cell;
-            vertical-align: middle;
-        }
+    .container {
+      width: 100%;
     }
+
+    .contact-title {
+      font-size: 40px;
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+
+    .contact-pre-title {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 20px 12px;
+
+    .contact-title {
+      font-size: 28px;
+      word-break: break-word;
+      margin-bottom: 15px;
+    }
+
+    .contact-pre-title {
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+  }
+}
+
+// Ensure form inputs don't overflow
+::ng-deep {
+  .contact {
+    form {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+
+      div {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .contact-input {
+      max-width: 100% !important;
+      width: 100% !important;
+      padding: 12px 15px !important;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+
+    p {
+      max-width: 100%;
+      word-break: break-word;
+      padding: 0 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact {
+      .contact-input {
+        padding: 10px 12px !important;
+        font-size: 14px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }

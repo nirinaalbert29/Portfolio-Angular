@@ -1,131 +1,221 @@
 @import "./../../../../variables.scss";
 
 ::ng-deep .jobs .jobs-tabs {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+
+  .tab-content {
+    margin-left: 50px;
+    min-width: 500px;
+    overflow-x: hidden;
+    max-width: calc(100% - 180px - 50px);
+  }
+
+  ul {
+    display: block;
+    width: 180px;
+    border: none;
+    flex-shrink: 0;
+    overflow-x: hidden;
+  }
+
+  a {
     display: flex;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    min-height: 50px;
+    padding: 0 25px 2px;
+    text-align: left;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-family: $CodeFont;
+    font-size: 15px;
+    color: $Slate;
+    overflow-x: hidden;
 
-    .tab-content {
-        margin-left: 50px;
-        min-width: 500px;
+    &:hover,
+    &:focus {
+      background-color: $LightNavy !important;
+      color: $Green !important;
+      border-color: transparent !important;
+      border-radius: 0px;
+      width: 100%;
+      padding-right: 35px; // Extra padding on hover
     }
 
-    ul {
-        display: block;
-        width: 180px;  // Increased from 140px
-        border: none;
+    &.active {
+      background-color: $LightNavy !important;
+      color: $Green !important;
+      border-color: transparent !important;
+      border-radius: 0px;
+      width: 100%;
+      padding-right: 35px; // Extra padding for active state
+    }
+  }
+
+  li {
+    border-left: 2px solid $LightestNavy;
+    width: 100%;
+
+    &:hover,
+    &:focus {
+      background-color: $LightNavy;
+      border-left-color: $Green;
     }
 
-    a {
-        display: flex;
-        text-decoration: none;
-        text-decoration-skip-ink: auto;
-        color: inherit;
-        position: relative;
-        transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-        cursor: pointer;
-        align-items: center;
-        width: 100%;
-        background-color: transparent;
-        height: 50px;
-        padding: 0 25px 2px;  // Increased horizontal padding
-        text-align: left;
-        white-space: nowrap;
-        font-family: $CodeFont;
-        font-size: 15px;
-        color: $Slate;
-
-        &:hover, &:focus {
-            background-color: $LightNavy !important;
-            color: $Green !important;
-            border-color: transparent !important;
-            border-radius: 0px;
-            width: 100%;
-            padding-right: 35px;  // Extra padding on hover
-        }
-
-        &.active {
-            background-color: $LightNavy !important;
-            color: $Green !important;
-            border-color: transparent !important;
-            border-radius: 0px;
-            width: 100%;
-            padding-right: 35px;  // Extra padding for active state
-        }
+    &.active {
+      border-left-color: $Green;
     }
-
-    li {
-        border-left: 2px solid $LightestNavy;
-        width: 100%;
-        
-        &:hover, &:focus {
-            background-color: $LightNavy;
-            border-left-color: $Green;
-        }
-
-        &.active {
-            border-left-color: $Green;
-        }
-    }
+  }
 }
 
 .jobs {
-    max-width: 900px;
-    margin: auto;
+  max-width: 900px;
+  margin: auto;
 
-    .title-tab-content {
-        color: $LightestSlate;
-        font-size: 24px;
-        font-weight: 500;
-        margin-bottom: 10px;
+  .title-tab-content {
+    color: $LightestSlate;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
 
-        .company-tab-content {
-            color: $Green;
-        }
+    .company-tab-content {
+      color: $Green;
     }
+  }
 
-    .job-time {
-        font-family: $CodeFont;
-        font-size: 14px;
-        font-weight: normal;
-        letter-spacing: 0.05em;
-        color: $LightSlate;
-        margin-bottom: 30px;
-    }
-   
-    .job-description {
-        position: relative;
-        padding-left: 30px;
-        margin-bottom: 15px;
-        font-size: 16px;
-        line-height: 1.6;
+  .job-time {
+    font-family: $CodeFont;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: $LightSlate;
+    margin-bottom: 30px;
+  }
 
-        &:before {
-            content: '▹';
-            position: absolute;
-            left: 0;
-            color: $Green;
-        }
+  .job-description {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+
+    &:before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: $Green;
     }
+  }
 }
 
 @media (max-width: 768px) {
-    .jobs {
-        .job-description {
-            padding: 0px;
-        }
-    }
-    
-    ::ng-deep .jobs-tabs {
-        display: block !important;
+  .jobs {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    overflow-x: hidden;
 
-        .tab-content {
-            margin-left: 0px !important;
-            min-width: 100%;
-        }
-
-        ul {
-            display: block;
-            width: 100% !important;
-            margin-bottom: 50px;
-        }
+    .title-tab-content {
+      font-size: 20px;
+      word-break: break-word;
+      overflow-wrap: break-word;
     }
+
+    .job-description {
+      padding-left: 20px;
+      padding-right: 10px;
+      font-size: 15px;
+      margin-bottom: 12px;
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+  }
+
+  ::ng-deep .jobs-tabs {
+    display: block !important;
+    overflow-x: hidden;
+    width: 100%;
+
+    .tab-content {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      min-width: 100%;
+      padding: 0 10px;
+      overflow-x: hidden;
+      max-width: 100%;
+    }
+
+    ul {
+      display: block;
+      width: 100% !important;
+      margin: 0 !important;
+      margin-bottom: 30px;
+      padding: 0 !important;
+      overflow-x: hidden;
+      flex-shrink: 0;
+    }
+
+    li {
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    a {
+      padding: 0 12px 2px !important;
+      font-size: 13px;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: break-word;
+      height: auto;
+      min-height: 40px;
+      overflow-x: hidden;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .jobs {
+    padding: 0 12px;
+
+    .title-tab-content {
+      font-size: 18px;
+    }
+
+    .job-time {
+      font-size: 12px;
+    }
+
+    .job-description {
+      padding-left: 18px;
+      padding-right: 8px;
+      font-size: 14px;
+    }
+  }
+
+  ::ng-deep .jobs-tabs {
+    ul {
+      margin-bottom: 20px !important;
+    }
+
+    a {
+      padding: 0 10px 2px !important;
+      font-size: 12px;
+    }
+  }
 }
