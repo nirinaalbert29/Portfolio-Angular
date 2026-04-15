@@ -26,7 +26,7 @@
               </a>
           </li>
           <li>
-              <div ngbDropdown class="d-inline-block">
+              <div ngbDropdown placement="bottom-right" class="d-inline-block">
                   <div class="language-container" id="dropdownForm1" ngbDropdownToggle>
                       <img *ngIf='languageFormControl.value == "fr"' width="20px" src="https://www.worldometers.info/img/flags/fr-flag.gif" alt="Français">
                       <span *ngIf='languageFormControl.value == "fr"' class="flag-text">Français</span>
@@ -57,7 +57,7 @@
       <div class="menu-wrapper">
           <div [class.animate]='responsiveMenuVisible' (click)='responsiveMenuVisible = !responsiveMenuVisible' class="hamburger-menu"></div>
       </div>
-      <div class="menu-responsive" [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
+      <div class="menu-responsive" [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : 'auto' }">
           <aside [class.aside-show]='responsiveMenuVisible' [class.nav-shadow]='this.pageYPosition>0' class="on-top">
               <nav>
                   <ol>

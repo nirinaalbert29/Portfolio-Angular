@@ -21,39 +21,50 @@
 
     "Experience.Title": "Expérience",
     "Experience.Jobs": [
-        {
-            "Tab": "Connect Talent",
-            "Title": "Freelancer Développeur Laravel & REACT",
-            "Date": "Septembre 2024 - Février 2025",
-            "Description": [
-                "Création d'une plateforme Connect-Talent qui aide les étudiants à trouver des opportunités.",
-                "Création d'un site vitrine Securitec Surveillance."
-            ]
-        },
-        {
-            "Tab": "OpenData-Mada",
-            "Title": "Stagiaire Développeur Laravel",
-            "Date": "Juin 2023 - Août 2023",
-            "Description": [
-                "Création d'une application Web pour le suivi de production des intervenants."
-            ]
-        },
-        {
-            "Tab": "DREN A.M.M",
-            "Title": "Développeur NodeJS et React",
-            "Date": "Mai 2023 - Juin 2023",
-            "Description": [
-                "Développement d'un logiciel de gestion des kits scolaires."
-            ]
-        },
-        {
-            "Tab": "DREN A.M.M",
-            "Title": "Stagiaire Développeur JAVA Swing",
-            "Date": "Juin 2022 - Juillet 2022",
-            "Description": [
-                "Création d'une application de gestion de stocks scolaires."
-            ]
-        }
+      {
+        "Tab": "Akata Goavana",
+        "website": "https://akata-goavana.com/",
+        "Title": "Développeur Full Stack",
+        "Date": "Mai 2025 - Avril 2026",
+        "Description": [
+          "Conception et développement d’une plateforme numérique de marketing de réseau multi-niveau avec un système de commissionnement  en utlisant les technologies modernes <span class='underline'>NestJS</span>, <span class='underline'>Next.js</span>, <span class='underline'>MySql</span>, <span class='underline'>Stripe</span>, <span class='underline'>DocuSign</span>.",
+          "Contribution active au développement de projets transverses de l'entreprise ( + 5 projets ) en utilisant les technologies modernes <span class='underline'>Laravel</span>, <span class='underline'>React</span> et <span class='underline'>React Native</span>."
+        ]
+      },
+      {
+        "Tab": "Connect Talent",
+        "Title": "Freelancer Développeur Laravel & REACT",
+        "Date": "Septembre 2024 - Février 2025",
+        "Description": [
+          "Création d'une plateforme Connect-Talent qui aide les étudiants à trouver des opportunités.",
+          "Création d'un site vitrine Securitec Surveillance."
+        ]
+      },
+      {
+        "Tab": "OpenData-Mada",
+        "website": "https://www.linkedin.com/company/opendata-madagascar/",
+        "Title": "Stagiaire Développeur Laravel",
+        "Date": "Juin 2023 - Août 2023",
+        "Description": [
+          "Création d'une application Web pour le suivi de production des intervenants."
+        ]
+      },
+      {
+        "Tab": "DREN A.M.M",
+        "Title": "Développeur NodeJS et React",
+        "Date": "Mai 2023 - Juin 2023",
+        "Description": [
+          "Développement d'un logiciel de gestion des kits scolaires."
+        ]
+      },
+      {
+        "Tab": "DREN A.M.M",
+        "Title": "Stagiaire Développeur JAVA Swing",
+        "Date": "Juin 2022 - Juillet 2022",
+        "Description": [
+          "Création d'une application de gestion de stocks scolaires."
+        ]
+      }
     ],
 
     "FeatureProjects.Title": "Mes projets",
@@ -71,7 +82,7 @@
                 "assets/images/ctalent_images/6.JPG",
                 "assets/images/ctalent_images/7.JPG",
                 "assets/images/ctalent_images/8.JPG",
-                "assets/images/ctalent_images/9.JPG", 
+                "assets/images/ctalent_images/9.JPG",
                 "assets/images/ctalent_images/10.JPG",
                 "assets/images/ctalent_images/11.JPG",
                 "assets/images/ctalent_images/12.JPG"

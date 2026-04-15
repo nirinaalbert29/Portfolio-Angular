@@ -1,181 +1,185 @@
 {
-    "Header.Item1": "About Me",
-    "Header.Item2": "Experiences",
-    "Header.Item3": "Projects",
-    "Header.Item4": "Contact",
-    "Header.cvBtn": "Resume",
-    "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert_en.pdf",
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experiences",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_JEAN_Alexis_Nirina_Albert_en.pdf",
 
-    "Banner.Pretitle": "Hello! My name is",
-    "Banner.title": "Software Developer",
-    "Banner.Description": "I have <span class='underline'>2 years of experience</span> in web development and desktop application development. I focus on writing clean, reusable code across <span class='underline'>various technologies</span>, applying best practices and development standards.",
-    "Banner.ActionBtn": "Get in Touch",
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.title": "Software Developer",
+  "Banner.Description": "I have <span class='underline'>2 years of experience</span> in web development and desktop application development. I focus on writing clean, reusable code across <span class='underline'>various technologies</span>, applying best practices and development standards.",
+  "Banner.ActionBtn": "Get in Touch",
 
-    "AboutMe.Title": "About Me",
-    "AboutMe.Paragraphs": [
-        "In <span class='underline'>2 years of experience</span>, I have held various roles: <span class='underline'>web developer</span>, <span class='underline'>desktop application developer</span>. I enjoy using my skills to create innovative solutions that solve problems.",
-        "My skills include implementing system improvements, optimizing websites, standardizing models, and executing ideas that add value to the project I'm working on.",
-        "I also develop personal projects out of interest or utility.",
-        "Technologies I have worked with include (but are not limited to): "
-    ],
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In <span class='underline'>2 years of experience</span>, I have held various roles: <span class='underline'>web developer</span>, <span class='underline'>desktop application developer</span>. I enjoy using my skills to create innovative solutions that solve problems.",
+    "My skills include implementing system improvements, optimizing websites, standardizing models, and executing ideas that add value to the project I'm working on.",
+    "I also develop personal projects out of interest or utility.",
+    "Technologies I have worked with include (but are not limited to): "
+  ],
 
-    "Experience.Title": "Experience",
-    "Experience.Jobs": [
-        {
-            "Tab": "Connect Talent",
-            "Title": "Freelance Laravel & REACT Developer",
-            "Date": "September 2024 - February 2025",
-            "Description": [
-                "Development of a Connect-Talent platform helping students find professional opportunities.",
-                "Creation of a showcase website for Securitec Surveillance."
-            ]
-        },
-        {
-            "Tab": "OpenData-Mada",
-            "Title": "Laravel Developer Intern",
-            "Date": "June 2023 - August 2023",
-            "Description": [
-                "Development of a web application for tracking production stakeholders."
-            ]
-        },
-        {
-            "Tab": "DREN A.M.M",
-            "Title": "NodeJS and React Developer",
-            "Date": "May 2023 - June 2023",
-            "Description": [
-                "Development of a school kit management software."
-            ]
-        },
-        {
-            "Tab": "DREN A.M.M",
-            "Title": "Java Swing Developer Intern",
-            "Date": "June 2022 - July 2022",
-            "Description": [
-                "Creation of a school inventory management application."
-            ]
-        }
-    ],
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Akata Goavana",
+      "Title": "Full Stack Developer",
+      "Date": "May 2025 - April 2026",
+      "Description": [
+        "Design and development of a multi-level network marketing digital platform with a commission system using modern technologies such as <span class='underline'>NestJS</span>, <span class='underline'>Next.js</span>, <span class='underline'>MySql</span>, <span class='underline'>Stripe</span>, and <span class='underline'>DocuSign</span>.",
+        "Active contribution to the development of cross-functional company projects ( + 5 projects) using modern technologies such as <span class='underline'>Laravel</span>, <span class='underline'>React</span>, and <span class='underline'>React Native</span>."
+      ]
+    },
+    {
+      "Tab": "Connect Talent",
+      "Title": "Freelance Laravel & REACT Developer",
+      "Date": "September 2024 - February 2025",
+      "Description": [
+        "Development of a Connect-Talent platform helping students find professional opportunities.",
+        "Creation of a showcase website for Securitec Surveillance."
+      ]
+    },
+    {
+      "Tab": "OpenData-Mada",
+      "website": "https://www.linkedin.com/company/opendata-madagascar/",
+      "Title": "Laravel Developer Intern",
+      "Date": "June 2023 - August 2023",
+      "Description": [
+        "Development of a web application for tracking production stakeholders."
+      ]
+    },
+    {
+      "Tab": "DREN A.M.M",
+      "Title": "NodeJS and React Developer",
+      "Date": "May 2023 - June 2023",
+      "Description": ["Development of a school kit management software."]
+    },
+    {
+      "Tab": "DREN A.M.M",
+      "Title": "Java Swing Developer Intern",
+      "Date": "June 2022 - July 2022",
+      "Description": ["Creation of a school inventory management application."]
+    }
+  ],
 
-    "FeatureProjects.Title": "My Projects",
-    "FeatureProjects.Label": "Featured Project",
-    "FeatureProjects.Projects": [
-        {
-            "Title": "Connect Talent Platform",
-            "Description": "Participation in the development of an innovative web platform facilitating connections between students and professional opportunities, offering a smooth and high-performance user experience, built with modern technologies <span class='underline'>Laravel</span>, <span class='underline'>React</span>, and <span class='underline'>MySQL</span>.",
-            "imgs": [
-                "assets/images/ctalent_images/1.JPG",
-                "assets/images/ctalent_images/2.JPG",
-                "assets/images/ctalent_images/3.JPG",
-                "assets/images/ctalent_images/4.JPG",
-                "assets/images/ctalent_images/5.JPG",
-                "assets/images/ctalent_images/6.JPG",
-                "assets/images/ctalent_images/7.JPG",
-                "assets/images/ctalent_images/8.JPG",
-                "assets/images/ctalent_images/9.JPG", 
-                "assets/images/ctalent_images/10.JPG",
-                "assets/images/ctalent_images/11.JPG",
-                "assets/images/ctalent_images/12.JPG"
-            ],
-            "link": ["https://connecttalent.cc/"]
-        },
-        {
-            "Title": "Securitec Surveillance Website",
-            "Description": "Development of a showcase website for Securitec Surveillance, presenting professional security solutions, created with <span class='underline'>React.js</span> and <span class='underline'>Tailwind CSS</span>",
-            "imgs": [
-                "assets/images/securitec_images/1.JPG",
-                "assets/images/securitec_images/2.JPG",
-                "assets/images/securitec_images/3.JPG",
-                "assets/images/securitec_images/4.JPG",
-                "assets/images/securitec_images/5.JPG",
-                "assets/images/securitec_images/6.JPG",
-                "assets/images/securitec_images/7.JPG",
-                "assets/images/securitec_images/8.JPG",
-                "assets/images/securitec_images/9.JPG",
-                "assets/images/securitec_images/10.JPG"
-            ],
-            "link": ["https://securitec-surveillance.vercel.app/"]
-        }
-    ],
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Connect Talent Platform",
+      "Description": "Participation in the development of an innovative web platform facilitating connections between students and professional opportunities, offering a smooth and high-performance user experience, built with modern technologies <span class='underline'>Laravel</span>, <span class='underline'>React</span>, and <span class='underline'>MySQL</span>.",
+      "imgs": [
+        "assets/images/ctalent_images/1.JPG",
+        "assets/images/ctalent_images/2.JPG",
+        "assets/images/ctalent_images/3.JPG",
+        "assets/images/ctalent_images/4.JPG",
+        "assets/images/ctalent_images/5.JPG",
+        "assets/images/ctalent_images/6.JPG",
+        "assets/images/ctalent_images/7.JPG",
+        "assets/images/ctalent_images/8.JPG",
+        "assets/images/ctalent_images/9.JPG",
+        "assets/images/ctalent_images/10.JPG",
+        "assets/images/ctalent_images/11.JPG",
+        "assets/images/ctalent_images/12.JPG"
+      ],
+      "link": ["https://connecttalent.cc/"]
+    },
+    {
+      "Title": "Securitec Surveillance Website",
+      "Description": "Development of a showcase website for Securitec Surveillance, presenting professional security solutions, created with <span class='underline'>React.js</span> and <span class='underline'>Tailwind CSS</span>",
+      "imgs": [
+        "assets/images/securitec_images/1.JPG",
+        "assets/images/securitec_images/2.JPG",
+        "assets/images/securitec_images/3.JPG",
+        "assets/images/securitec_images/4.JPG",
+        "assets/images/securitec_images/5.JPG",
+        "assets/images/securitec_images/6.JPG",
+        "assets/images/securitec_images/7.JPG",
+        "assets/images/securitec_images/8.JPG",
+        "assets/images/securitec_images/9.JPG",
+        "assets/images/securitec_images/10.JPG"
+      ],
+      "link": ["https://securitec-surveillance.vercel.app/"]
+    }
+  ],
 
-    "OtherProjects.Title": "Other Projects",
-    "OtherProjects.Projects": [
-        {
-            "Title": "Housing Sales Management",
-            "Description": "Development of a web application for housing sales management, accepting payment in two installments.",
-            "ghLink": "https://github.com/nirinaalbert29/laravel-projet-vente-logement2",
-            "imgs": [
-                "assets/images/figma-design.jpg",
-                "assets/images/figma-design.jpg"
-            ],
-            "Technologies": ["Laravel", "MySQL","Bootstrap"]
-        },
-        {
-            "Title": "E-commerce Web Application",
-            "Description": "Creation of a web application to manage online customer purchases with both Customer and Admin/Seller interfaces.",
-            "ghLink": "https://github.com/nirinaalbert29/angular-springboot-commerce-projet/tree/master",
-            "imgs": [
-                "assets/images/imagesEcom/1.PNG"
-            ],
-            "Technologies": ["Spring Boot", "Angular", "MySQL"]
-        },
-        {
-            "Title": "Bank Customer Account Management Web Application",
-            "Description": "Design and implementation of a web application for managing customer account creation and transactions in a bank.",
-            "ghLink": "https://github.com/nirinaalbert29/gestion_banque_jsp",
-            "imgs": [
-                "assets/images/figma-design.jpg",
-                "assets/images/figma-design.jpg"
-            ],
-            "Technologies": ["Java EE", "Servlet", "MySQL"]
-        },
-        {
-            "Title": "Wholesale Sales Management",
-            "Description": "Creation of sales management applications for a wholesaler with 2 different interfaces (Desktop, Web). These applications manage invoicing and sales statistics.",
-            "ghLink": "https://github.com/nirinaalbert29/gestion_vente_js_php",
-            "imgs": [
-                "assets/images/figma-design.jpg",
-                "assets/images/figma-design.jpg"
-            ],
-            "Technologies": ["Java Swing", "JavaScript", "MySQL"]
-        },
-        {
-            "Title": "Student Management",
-            "Description": "Implementation of a student management project. This application manages student grades.",
-            "ghLink": "https://github.com/nirinaalbert29/GESTION_ETUDIANT_PHP_L2",
-            "imgs": [
-                "assets/images/figma-design.jpg",
-                "assets/images/figma-design.jpg"
-            ],
-            "Technologies": ["PHP", "JavaScript", "MySQL"]
-        },
-        {
-            "Title": "Mobile Application for Student Merit Scholarship",
-            "Description": "Creation of a mobile application for managing students eligible for a merit scholarship.",
-            "ghLink": "https://github.com/nirinaalbert29/gestion_etudiant_boursier_apk",
-            "imgs": [
-                "assets/images/figma-design.jpg",
-                "assets/images/figma-design.jpg"
-            ],
-            "Technologies": ["Flutter", "SQLite"]
-        },
-        {
-            "Title": "Employee Attendance Mobile Application",
-            "Description": "Creation of a mobile application to validate employee attendance via QR-CODE scanning.",
-            "ghLink": "https://github.com/nirinaalbert29/apk-flutter/tree/develop",
-            "imgs": [
-                "assets/images/figma-design.jpg",
-                "assets/images/figma-design.jpg"
-            ],
-            "Technologies": ["Flutter", "SQLite"]
-        }
-    ],
+  "OtherProjects.Title": "Other Projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Housing Sales Management",
+      "Description": "Development of a web application for housing sales management, accepting payment in two installments.",
+      "ghLink": "https://github.com/nirinaalbert29/laravel-projet-vente-logement2",
+      "imgs": [
+        "assets/images/figma-design.jpg",
+        "assets/images/figma-design.jpg"
+      ],
+      "Technologies": ["Laravel", "MySQL", "Bootstrap"]
+    },
+    {
+      "Title": "E-commerce Web Application",
+      "Description": "Creation of a web application to manage online customer purchases with both Customer and Admin/Seller interfaces.",
+      "ghLink": "https://github.com/nirinaalbert29/angular-springboot-commerce-projet/tree/master",
+      "imgs": ["assets/images/imagesEcom/1.PNG"],
+      "Technologies": ["Spring Boot", "Angular", "MySQL"]
+    },
+    {
+      "Title": "Bank Customer Account Management Web Application",
+      "Description": "Design and implementation of a web application for managing customer account creation and transactions in a bank.",
+      "ghLink": "https://github.com/nirinaalbert29/gestion_banque_jsp",
+      "imgs": [
+        "assets/images/figma-design.jpg",
+        "assets/images/figma-design.jpg"
+      ],
+      "Technologies": ["Java EE", "Servlet", "MySQL"]
+    },
+    {
+      "Title": "Wholesale Sales Management",
+      "Description": "Creation of sales management applications for a wholesaler with 2 different interfaces (Desktop, Web). These applications manage invoicing and sales statistics.",
+      "ghLink": "https://github.com/nirinaalbert29/gestion_vente_js_php",
+      "imgs": [
+        "assets/images/figma-design.jpg",
+        "assets/images/figma-design.jpg"
+      ],
+      "Technologies": ["Java Swing", "JavaScript", "MySQL"]
+    },
+    {
+      "Title": "Student Management",
+      "Description": "Implementation of a student management project. This application manages student grades.",
+      "ghLink": "https://github.com/nirinaalbert29/GESTION_ETUDIANT_PHP_L2",
+      "imgs": [
+        "assets/images/figma-design.jpg",
+        "assets/images/figma-design.jpg"
+      ],
+      "Technologies": ["PHP", "JavaScript", "MySQL"]
+    },
+    {
+      "Title": "Mobile Application for Student Merit Scholarship",
+      "Description": "Creation of a mobile application for managing students eligible for a merit scholarship.",
+      "ghLink": "https://github.com/nirinaalbert29/gestion_etudiant_boursier_apk",
+      "imgs": [
+        "assets/images/figma-design.jpg",
+        "assets/images/figma-design.jpg"
+      ],
+      "Technologies": ["Flutter", "SQLite"]
+    },
+    {
+      "Title": "Employee Attendance Mobile Application",
+      "Description": "Creation of a mobile application to validate employee attendance via QR-CODE scanning.",
+      "ghLink": "https://github.com/nirinaalbert29/apk-flutter/tree/develop",
+      "imgs": [
+        "assets/images/figma-design.jpg",
+        "assets/images/figma-design.jpg"
+      ],
+      "Technologies": ["Flutter", "SQLite"]
+    }
+  ],
 
-    "Contact.Pretitle": "What's Next",
-    "Contact.Title": "Get In Touch!",
-    "Contact.Content": "I would be delighted to discuss new opportunities with you. Write to me, and I will respond as soon as possible.",
-    "Contact.Btn": "Send Message",
-    "input.name": "Enter your name",
-    "input.email": "Enter your email",
-    "input.mes": "Enter the message to send to nirinaalexalbert29@gmail.com",
-    "Contact.BtnLoading": "Sending..."
+  "Contact.Pretitle": "What's Next",
+  "Contact.Title": "Get In Touch!",
+  "Contact.Content": "I would be delighted to discuss new opportunities with you. Write to me, and I will respond as soon as possible.",
+  "Contact.Btn": "Send Message",
+  "input.name": "Enter your name",
+  "input.email": "Enter your email",
+  "input.mes": "Enter the message to send to nirinaalexalbert29@gmail.com",
+  "Contact.BtnLoading": "Sending..."
 }
